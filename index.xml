@@ -1,26 +1,90 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>HowHow の WebSite</title>
-        <link>https://howhow_blog.github.io/</link>
-        <description>HowHow の WebSite</description>
+        <link>https://blog.howhow.tk/</link>
+        <description>This is my cool site</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>wen9077@gmail.com (HowHow)</managingEditor>
-            <webMaster>wen9077@gmail.com (HowHow)</webMaster><lastBuildDate>Tue, 04 Jan 2022 18:49:02 &#43;0800</lastBuildDate>
-            <atom:link href="https://howhow_blog.github.io/index.xml" rel="self" type="application/rss+xml" />
+            <webMaster>wen9077@gmail.com (HowHow)</webMaster><lastBuildDate>Sun, 01 Jan 2023 00:00:00 &#43;0000</lastBuildDate>
+            <atom:link href="https://blog.howhow.tk/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Example</title>
-    <link>https://howhow_blog.github.io/posts/example01/</link>
-    <pubDate>Tue, 04 Jan 2022 18:49:02 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://howhow_blog.github.io/posts/example01/</guid>
-    <description><![CDATA[<p></p>
-<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>
-</item><item>
-    <title>Hugo 是什麼</title>
-    <link>https://howhow_blog.github.io/posts/example/</link>
-    <pubDate>Tue, 04 Jan 2022 18:49:02 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://howhow_blog.github.io/posts/example/</guid>
-    <description><![CDATA[<p></p>
-<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>
-</item></channel>
+    <title>Linux - DHCP 伺服器</title>
+    <link>https://blog.howhow.tk/posts/linux/2023/linux-dhcpd/</link>
+    <pubDate>Sun, 01 Jan 2023 00:00:00 &#43;0000</pubDate>
+    <author>HowHow</author>
+    <guid>https://blog.howhow.tk/posts/linux/2023/linux-dhcpd/</guid>
+    <description><![CDATA[除了手動設置伺服器 IP ，最常用的就是 DHCP 動態主機設定協定 (Dynamic Host Configuration Protocol)，除了常見的家用路由器有此功能外，也能在 RHEL 上架設私人的 DHCP Serv]]></description>
+</item>
+<item>
+    <title>Linux - Teaming 網路</title>
+    <link>https://blog.howhow.tk/posts/linux/2023/linux-network-teamd/</link>
+    <pubDate>Sun, 01 Jan 2023 00:00:00 &#43;0000</pubDate>
+    <author>HowHow</author>
+    <guid>https://blog.howhow.tk/posts/linux/2023/linux-network-teamd/</guid>
+    <description><![CDATA[Teamd 是一種可以達成網路高可用性或是合併頻寬的手法，RHEL 可以使用 nmcli 非常容易地達成目的。 1. Teaming 網路簡介 為了保持網路高可用性或是更高的頻寬可以透過]]></description>
+</item>
+<item>
+    <title>Linux - 打造輕巧 Linux 練習 Lab 第二版</title>
+    <link>https://blog.howhow.tk/posts/linux/2023/linux-create-playground-v2/</link>
+    <pubDate>Sun, 01 Jan 2023 00:00:00 &#43;0000</pubDate>
+    <author>HowHow</author>
+    <guid>https://blog.howhow.tk/posts/linux/2023/linux-create-playground-v2/</guid>
+    <description><![CDATA[Linux - 打造輕巧 Linux 練習 Lab 第二版 1. 練習環境介紹 虛擬主機網路拓樸 注: eth0 為管理網路(未列入上圖)，各機器有固定 mac address ，並向 DHCP Server 索取對應 IP 及 主機名稱。 主控]]></description>
+</item>
+<item>
+    <title>GCP - Terraform &amp; Ansible 在 GCP 上自動部署 K8S 叢集</title>
+    <link>https://blog.howhow.tk/posts/gcp/2022/gcp-iac_k8s/</link>
+    <pubDate>Sun, 03 Jul 2022 00:00:00 &#43;0000</pubDate>
+    <author>HowHow</author>
+    <guid>https://blog.howhow.tk/posts/gcp/2022/gcp-iac_k8s/</guid>
+    <description><![CDATA[手動部署 K8s 叢集是件重複又繁瑣的事情，除了要先準備好基礎機器環境之外，還要每一台機器安裝依賴套件後，並一個一個加入叢集內，透過 Terraform + Ansible Iac 最佳組合]]></description>
+</item>
+<item>
+    <title>AWS - Terraform &amp; Ansible 在 AWS 上自動部署 K8S 叢集</title>
+    <link>https://blog.howhow.tk/posts/aws/2022/aws-iac_k8s/</link>
+    <pubDate>Sat, 02 Jul 2022 00:00:00 &#43;0000</pubDate>
+    <author>HowHow</author>
+    <guid>https://blog.howhow.tk/posts/aws/2022/aws-iac_k8s/</guid>
+    <description><![CDATA[手動部署 K8s 叢集是件重複又繁瑣的事情，除了要先準備好基礎機器環境之外，還要每一台機器安裝依賴套件後，並一個一個加入叢集內，透過 Terraform + Ansible Iac 最佳組合]]></description>
+</item>
+<item>
+    <title>Terraform  - 在 Cloud Shell 上創建 GEC 機器</title>
+    <link>https://blog.howhow.tk/posts/terraform/2022/terraform-create_gce_instance/</link>
+    <pubDate>Wed, 01 Jun 2022 00:00:00 &#43;0000</pubDate>
+    <author>HowHow</author>
+    <guid>https://blog.howhow.tk/posts/terraform/2022/terraform-create_gce_instance/</guid>
+    <description><![CDATA[在 Google 的 Cloud Shell 上使用 Terraform 可以安全且快速的創建 GCE 機器，而不需要另外使用 credentials。 Terraform Terraform 是由 HashiCorp 建立的開放原始碼「基礎架構即程式碼」工具。 宣]]></description>
+</item>
+<item>
+    <title>Linux - 打造輕巧 Linux 練習 Lab</title>
+    <link>https://blog.howhow.tk/posts/linux/2022/linux-create-playground/</link>
+    <pubDate>Tue, 31 May 2022 00:00:00 &#43;0000</pubDate>
+    <author>HowHow</author>
+    <guid>https://blog.howhow.tk/posts/linux/2022/linux-create-playground/</guid>
+    <description><![CDATA[1. 練習環境介紹 主控端虛擬化 bastion Server 。 4 台巢狀式虛擬式機器 (練習區)。 所有均為無圖形化伺服器，減少無用資源消耗及硬碟空間。 可以透過主控端隨時快速還]]></description>
+</item>
+<item>
+    <title>NetWork - 申請 SSL 憑證 ( Free 無料 )</title>
+    <link>https://blog.howhow.tk/posts/network/2022/register_free_ssl/</link>
+    <pubDate>Sun, 29 May 2022 00:00:00 &#43;0000</pubDate>
+    <author>HowHow</author>
+    <guid>https://blog.howhow.tk/posts/network/2022/register_free_ssl/</guid>
+    <description><![CDATA[1. SSL 介紹 傳輸層安全性協定（英語：Transport Layer Security，縮寫：TLS) 安全通訊協定（英語：Secure Sockets Layer，縮寫：SS]]></description>
+</item>
+<item>
+    <title>NetWork - 註冊自己的 Domain ( Free 無料 )</title>
+    <link>https://blog.howhow.tk/posts/network/2022/register_free_domain/</link>
+    <pubDate>Sun, 29 May 2022 00:00:00 &#43;0000</pubDate>
+    <author>HowHow</author>
+    <guid>https://blog.howhow.tk/posts/network/2022/register_free_domain/</guid>
+    <description><![CDATA[1. Freenom 介紹 Freenom 是世界上第一家提供免費網域的註冊商，目前有提供.tk .ml .ga .cf 的免費域名。 2. 註冊方式 登入 Freenom 網站。 輸入自己喜歡的網域名稱並查看目前有哪些]]></description>
+</item>
+<item>
+    <title>Cisco - VLAN - Layer 3 Switch</title>
+    <link>https://blog.howhow.tk/posts/ccna/2022/cisco-vlan_layer3_switch/</link>
+    <pubDate>Fri, 20 May 2022 00:00:00 &#43;0000</pubDate>
+    <author>HowHow</author>
+    <guid>https://blog.howhow.tk/posts/ccna/2022/cisco-vlan_layer3_switch/</guid>
+    <description><![CDATA[在不同的 VLAN 如果要互相溝通需要透過路由 ( 使用 L3 Switch 取代一般的路由器 )協助轉發至對應的 VLAN 內。 先前介紹的三種路由方式，路由速度最快設定步驟容易的方式]]></description>
+</item>
+</channel>
 </rss>
